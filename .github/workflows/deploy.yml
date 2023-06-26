@@ -11,7 +11,7 @@ jobs:
       pages: write
       id-token: write
     environment:
-      name: https://github.com/WindAndDream/vitetest
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
