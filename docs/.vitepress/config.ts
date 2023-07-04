@@ -8,23 +8,19 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "首页", link: "/" },
-			{ text: "油猴项目", link: "/temper_monkey/installation" },
+			{ text: "油猴项目", link: "/temper_monkey/edge" },
 			{ text: "GitHub", link: "https://github.com/WindAndDream" },
 		],
 
 		sidebar: [
 			{
-				text: "油猴",
+				text: "配置油猴",
 				collapsed: true,
 				items: [
-					{ text: "安装", link: "/temper_monkey/installation" },
+					{ text: "Edge", link: "/temper_monkey/edge" },
 					{
-						text: "配置",
-						link: "/temper_monkey/configuation",
-					},
-					{
-						text: "使用",
-						link: "/temper_monkey/use",
+						text: "Google",
+						link: "/temper_monkey/google",
 					},
 				],
 			},
@@ -38,9 +34,29 @@ export default defineConfig({
 					},
 				],
 			},
+			{
+				text: "模板",
+				collapsed: true,
+				items: [
+					{
+						text: "模板1",
+						link: "/参考模板-1",
+					},
+					{
+						text: "模板2",
+						link: "/参考模板-2",
+					},
+				],
+			},
 		],
 
 		socialLinks: [{ icon: "github", link: "https://github.com/WindAndDream" }],
+
+		darkModeSwitchLabel: "主题",
+		sidebarMenuLabel: "菜单",
+		returnToTopLabel: "回到顶部",
+		langMenuLabel: "多语言",
+		outlineTitle: "所有内容👇",
 	},
 	base: "/tamperMonkey/",
 });
