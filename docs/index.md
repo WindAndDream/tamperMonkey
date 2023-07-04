@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 油猴项目
-      link: /temper_monkey/installation
+      link: /temper_monkey/edge
     - theme: alt
       text: GitHub
       link: https://github.com/WindAndDream
