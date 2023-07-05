@@ -35,7 +35,7 @@ export default defineConfig({
 				],
 			},
 			{
-				text: "模板",
+				text: "语法参考模板（略过即可）",
 				collapsed: true,
 				items: [
 					{
@@ -51,6 +51,11 @@ export default defineConfig({
 		],
 
 		socialLinks: [{ icon: "github", link: "https://github.com/WindAndDream" }],
+
+		docFooter: {
+			prev: "上一篇",
+			next: "下一篇",
+		},
 
 		darkModeSwitchLabel: "主题",
 		sidebarMenuLabel: "菜单",
