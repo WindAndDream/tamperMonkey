@@ -4,7 +4,7 @@
 
 <div style="padding-bottom: 8px">
 
-- 打开浏览器，点击图片所示位置（浏览器**右上角**）。
+- 打开 Edge 浏览器，点击图片所示位置（浏览器**右上角**）。
 
   ![Edge扩展](../images/temper_monkey/edge/step_1.png)
 
@@ -30,7 +30,7 @@
 
 <div style="padding-bottom: 4px">
 
-- 随后，我们搜索**tampermonkey**，并点击获取。
+- 随后，我们搜索**tamper monkey**，并点击获取。
 
   ![Edge扩展](../images/temper_monkey/edge/step_4.png)
 
