@@ -85,9 +85,10 @@ const jsZip = new JSZip(); // 声明一个jsZip对象
 
 // canvas元素的toBlob方法，传入一个回调函数，回调函数内接收blob对象
 HTMLCanvasElement.toBlob((blob) => {
-	jsZip.file(imgName, blob); // 调用file方法，传入保存的图片名称和blob对象
+	// 调用file方法，传入保存的图片名称和blob对象，将资源写入压缩包对象中
+	jsZip.file(imgName, blob);
 
-	// 调用generateAsync方法，返回一个期约，并且传递的值为全部图片的blob对象
+	// 调用generateAsync方法，返回一个期约，并且传递的值为压缩包的blob对象
 	jsZip.generateAsync({ type: "blob" }).then((content) => {
 		saveAs(content, `zipName.zip`); // FileSaver库中的saveAs方法，打包成压缩包
 	});
