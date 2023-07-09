@@ -7,4 +7,7 @@
 	--vp-font-family-mono: "LXGW WenKai Lite", ui-monospace, SFMono-Regular,
 		"SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
 		monospace;
+	--block-space-small: 4px;
+	--block-space-middle: 8px;
+	--block-space-large: 12px;
 }
