@@ -34,20 +34,6 @@ export default defineConfig({
 					},
 				],
 			},
-			{
-				text: "语法参考模板（略过即可）",
-				collapsed: true,
-				items: [
-					{
-						text: "模板1",
-						link: "/参考模板-1",
-					},
-					{
-						text: "模板2",
-						link: "/参考模板-2",
-					},
-				],
-			},
 		],
 
 		socialLinks: [{ icon: "github", link: "https://github.com/WindAndDream" }],
@@ -64,4 +50,7 @@ export default defineConfig({
 		outlineTitle: "所有内容👇",
 	},
 	base: "/tamperMonkey/",
+	markdown: {
+		lineNumbers: true,
+	},
 });
