@@ -89,13 +89,9 @@ HTMLCanvasElement.toBlob((blob) => {
     jsZip.file(imgName, blob);
 
     // 调用generateAsync方法，返回一个期约，并且传递的值为压缩包的blob对象
-    jsZip
-        .generateAsync({
-            type: "blob",
-        })
-        .then((content) => {
+    jsZip.generateAsync({ type: "blob", }).then((content) => {
             saveAs(content, `zipName.zip`); // FileSaver库中的saveAs方法，打包成压缩包
-        });
+    });
 });
 ```
 
